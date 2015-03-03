@@ -439,7 +439,7 @@ FL_ASL.main = function () {
     html_string += 'Show me profiles of people with a gender/sex of&hellip;';
     // NOTE: What if the UI only allowed us to find male-ish identified people, not women? What would the response be? :)
     html_string += '<label><input type="checkbox" name="user[sex]" value="M" checked="checked" /> Male</label>';
-//    html_string += '<label><input type="checkbox" name="user[sex]" value="F" /> Female</label>';
+    html_string += '<label><input type="checkbox" name="user[sex]" value="F" /> Female</label>';
 //    html_string += '<label><input type="checkbox" name="user[sex]" value="CD/TV" />Crossdresser/Transvestite</label>';
 //    html_string += '<label><input type="checkbox" name="user[sex]" value="MtF" />Trans - Male to Female</label>';
     html_string += '<label><input type="checkbox" name="user[sex]" value="FtM" checked="checked" />Trans - Female to Male</label>';
